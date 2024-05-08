@@ -16,13 +16,14 @@ export function Header() {
         const latitude = position.coords.latitude
         const longitude = position.coords.longitude
 
-        const geoCodingApiUrl = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${import.meta.env.GOOGLE_MAPS_API_KEY}`
+        const geoCodingApiUrl = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`
 
         fetch(geoCodingApiUrl)
           .then((response) => response.json())
           .then((data) => {
             if (data.status === 'OK' && data.results.length > 0) {
               const result = data.results[0]
+              console.log(result)
               const addressComponents = result.address_components
 
               const city = addressComponents.find((component: any) =>

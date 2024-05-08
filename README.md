@@ -15,17 +15,17 @@ Projeto desenvolvido como desafio para o **Nível 2: Aprofundando em Hooks** da 
 
 O aplicativo gerencia um carrinho de compras para uma cafeteria fictícia e possui as seguintes funcionalidades:
 
-[x] Listagem de produtos (cafés) disponíveis para compra
+- [x] Listagem de produtos (cafés) disponíveis para compra
 
-[x] Adicionar uma quantidade específicas de itens no carrinho
+- [x] Adicionar uma quantidade específicas de itens no carrinho
 
-[x] Aumentar ou remover a quantidade de itens no carrinho
+- [x] Aumentar ou remover a quantidade de itens no carrinho
 
-[x] Formulário para o usuário preencher o seu endereço
+- [x] Formulário para o usuário preencher o seu endereço
 
-[x] Exibir o total de itens no carrinho no Header
+- [x] Exibir o total de itens no carrinho no Header
 
-[x] Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
+- [x] Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
 
 ## 🧑‍💻 Tecnologias
 
@@ -39,7 +39,7 @@ O aplicativo gerencia um carrinho de compras para uma cafeteria fictícia e poss
 - [Phosphor React](https://phosphoricons.com/)
 - [ESLint](https://eslint.org/)
 
-## 🎨 Layout da aplicação
+## 🎨 Layout
 
 Você pode acessar o layout da aplicação pelo seguinte link:
 
@@ -97,7 +97,7 @@ Este projeto está sob a licença [MIT](LICENSE).
 
 ## 👥 Autor
 
-<img src="public/author.jpg" width="64" height="64" style="border: 2px solid blue; border-radius: 50%; object-fit: cover" />
+<img src="public/author.jpg" width="64" style="border: 2px solid blue; border-radius: 50%; object-fit: cover" />
 
 **Anderson Fernandes Ferreira**
 
